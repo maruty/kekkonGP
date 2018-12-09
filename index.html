@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html lang="ja-JP">
+<head>
+	<link href="./main.css" rel="stylesheet" type="text/css">
+	<meta charset="UTF-8">
+</head>
+<body>
+
+
+<video id="myVideo" width="1280px" height="720px" autoplay="1" ></video>
+<video controls id="myVideo2" width="1280px" height="720px">
+	<source src="./webmOutput.webm" width="1280px" height="720px">
+</video>
+<canvas id="myCanvas"></canvas>
+<canvas id="myCanvas2"></canvas>
+<canvas id="myCanvas3"></canvas>
+<div id="messageArea">
+	<p id="q1">新郎・新婦のちょっと過保護な取扱説明書に記載されている内容は？</p>
+	<p id="q2">写真で一言</p>
+</div>
+<div id="picArea">
+	<img id="pic" src="http://www.geocities.jp/g_takeshi_man/geinin/qsama.JPG">
+</div>
+
+<audio id="myAudio" src="./zannen.mp3" controls></audio>
+<audio id="myAudio2" src="./studio.mp3" controls></audio>
+
+<p class="input_position">
+	問題文:<input type="text" size="130" maxlength="300" id="text_question">
+	<input type="button" value="送信" id="click_question" >
+</p>
+
+<script type="text/javascript" src="./main.js"></script>
+
+
+</body>
+</html>
